@@ -1,0 +1,15 @@
+{
+  "name": "phraselint",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Tool for validating i18n files coming from Phrase",
+  "scripts": {
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.13",
+    "commander": "12.1.0",
+    "tsx": "4.11.0",
+    "typescript": "5.4.5"
+  }
+}
